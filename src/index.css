@@ -38,3 +38,40 @@ code {
 .Login-link {
   color: #61dafb;
 }
+
+
+
+
+
+.Login-card {
+  width: 18rem;
+
+  border: 1px solid red;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.Login-img {
+  width: 100%;
+
+  background-color: black;
+}
+
+.Login-body {
+
+}
+
+/* .Login-region {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.Login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

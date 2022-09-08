@@ -9,18 +9,21 @@ function Login() {
 
     return (
         <section className="Login">
-            <Card className = 'Login-card'>
-                <Card.Img className = 'Login-img' variant = 'top' src = {logo} />
-                <Card.Body className = 'Login-body'>
-                    <Card.Title>Login</Card.Title>
-                    <Card.Text className = 'Login-text'>
-                        <form className = 'Login-form'>
+            <Card className = 'Login-Card'>
+                <Card.Img 
+                className = 'Login-Img' 
+                variant = 'top' 
+                src = {logo}
+                alt = 'Logo'
+                />
+                <Card.Body className = 'Login-Body'>
+                    <Card.Title as = 'h4'>
+                        Login
+                    </Card.Title>
+                    <Card.Text as = 'div' className = 'Login-Text'>
+                        <form className = 'Login-Form'>
                             <Dropdown>
-
-                                <Dropdown.Toggle className = 'Login-button'>
-                                    {region}
-                                </Dropdown.Toggle>
-
+                                <Dropdown.Toggle className = 'Login-Button'>{region}</Dropdown.Toggle>
                                 <Dropdown.Menu>
                                     <Dropdown.Item onClick = {() => setRegion('NA')}>North America (NA)</Dropdown.Item>
                                     <Dropdown.Item onClick = {() => setRegion('EUW')}>European West (EUW)</Dropdown.Item>
@@ -35,7 +38,12 @@ function Login() {
                                     <Dropdown.Item onClick = {() => setRegion('LAS')}>Latin America South (LAS)</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
-                            <input className = 'Login-input' type = 'text' id = 'username' placeholder = 'Username...' />
+                            <input 
+                            className = 'Login-Input'
+                            type = 'text'
+                            id = 'username'
+                            placeholder = 'Username...'
+                            />
                         </form>
                     </Card.Text>
                 </Card.Body>

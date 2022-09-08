@@ -20,37 +20,40 @@ code {
   	width: 100vw;
 }
 
-.Login-card {
+.Login-Card {
   	width: min(25rem, 90%);
 
 	margin: 3em auto;
 }
 
-.Login-img {
+.Login-Img {
   	width: 100%;
 
 	background-color: transparent;
 }
 
-.Login-body {
+.Login-Body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
 
-.Login-text {
+.Login-Text {
 	width: 100%;
 
 	border-top: 0.1rem solid #000000;
 }
 
-.Login-form {
+.Login-Form {
   	display: flex;
 
 	margin-top: 1rem;
 }
-
-.Login-button {
+/*
+TODO: DIFFERENT COLORS FOR EACH REGIONS
+	  SET BACKGROUND IMAGE
+*/
+.Login-Button {
 	height: 2.5rem;
 	width: 5rem;
 
@@ -66,7 +69,7 @@ code {
 	color: #000000 !important;
 }
 
-.Login-input {
+.Login-Input {
 	height: 2.5rem;
 	width: 100%;
 	

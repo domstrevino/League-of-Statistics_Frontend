@@ -16,62 +16,63 @@ code {
 ** LOGIN
 */
 .Login {
-  text-align: center;
+  	height: 100vh;
+  	width: 100vw;
 }
-
-.Login-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.Login-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.Login-link {
-  color: #61dafb;
-}
-
-
-
-
 
 .Login-card {
-  width: 18rem;
+  	width: min(25rem, 90%);
 
-  border: 1px solid red;
-
-  position: absolute;
-  top: 40%;
-  left: 50%;
-
-  transform: translate(-50%, -50%);
+	margin: 3em auto;
 }
 
 .Login-img {
-  width: 100%;
+  	width: 100%;
 
-  background-color: black;
+	background-color: transparent;
 }
 
 .Login-body {
-
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
-/* .Login-region {
-  display: flex;
-  justify-content: space-between;
-} */
+.Login-text {
+	width: 100%;
+
+	border-top: 0.1rem solid #000000;
+}
 
 .Login-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  	display: flex;
+
+	margin-top: 1rem;
+}
+
+.Login-button {
+	height: 2.5rem;
+	width: 5rem;
+
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+
+	border: 1px solid #000000 !important;
+	border-radius: 1rem !important;
+	padding: 1rem !important;
+
+	background-color: transparent !important;
+	color: #000000 !important;
+}
+
+.Login-input {
+	height: 2.5rem;
+	width: 100%;
+	
+	margin-left: 0.5rem;
+
+	border: 1px solid #000000;
+	border-radius: 1rem;
+	padding: 1rem;
 }

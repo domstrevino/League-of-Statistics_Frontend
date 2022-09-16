@@ -30,9 +30,8 @@ code {
 .Login-Card {
 	width: min(25rem, 90%);
 
-	/* margin: 0 auto; */
 	position: absolute !important;
-	top: 35%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 
@@ -96,4 +95,18 @@ code {
 	border: 1px solid #000000;
 	border-radius: 1rem;
 	padding: 1rem;
+}
+
+.Login-Error {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	color: rgb(255, 0, 0);
+}
+
+.Name {
+	font-weight: bold;
+	color:rgb(255, 255, 255);
 }
